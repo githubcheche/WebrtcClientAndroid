@@ -77,7 +77,7 @@ public class MainActivity extends Activity implements WebRTCClient.RtcListener {
 
 //        mSocketAddress = "https://" + "laravue.xyz:3000";
 //        mSocketAddress = "https://" + "laravue.xyz";
-        mSocketAddress = "http://" + "call.icheyy.top:8081";
+        mSocketAddress = "https://" + "call.icheyy.top";
         initViews();
 
         vsv = (GLSurfaceView) findViewById(R.id.glview_call);
